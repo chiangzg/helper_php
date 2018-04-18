@@ -1,0 +1,19 @@
+{
+    "name": "chiangzg/helper_php",
+    "description": "helper for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chiang",
+            "email": "Chiangzg@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Helper\\": "src/"
+		}
+	}
+}
