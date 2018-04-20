@@ -7,9 +7,9 @@ use HttpException;
 /**
  * Class Curl
  *
- * @author  Jock Jiang
+ * @author  Chiang
  * @since   2018/4/20
- * @email jock.jiang@dadaabc.com
+ * @email   chiangzg@gmail.com
  *
  * @package Helper
  */
