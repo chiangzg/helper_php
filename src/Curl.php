@@ -56,7 +56,7 @@ class Curl
         $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if ($httpcode != 200) {
             curl_close($ch);
-            throw new \ErrorException($httpcode, $data);
+            throw new \ErrorException($data, $httpcode);
         }
 
         curl_close($ch);
