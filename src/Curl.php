@@ -20,7 +20,6 @@ class Curl
      * @param bool  $isPost
      *
      * @return mixed
-     * @throws HttpException
      * @throws \ErrorException
      */
     public static function curl($url, $requestData, $extraOpts = [], $isPost = false)
