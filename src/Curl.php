@@ -2,8 +2,6 @@
 
 namespace Helper;
 
-use HttpException;
-
 /**
  * Class Curl
  *
@@ -58,7 +56,7 @@ class Curl
         $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if ($httpcode != 200) {
             curl_close($ch);
-            throw new HttpException($httpcode, $data);
+            throw new \ErrorException($httpcode, $data);
         }
 
         curl_close($ch);
